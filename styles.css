@@ -1,0 +1,540 @@
+body{
+    background-color: black;
+}
+
+.main_body{
+    width: 900px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    left: 150px;
+}
+
+.main_logo{
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.main_logo::first-letter{
+    color: red;
+}
+
+h1{
+    color: white;
+}
+
+#sun{
+    background-color: yellow;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left: 2542px;
+    top: 1257px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#container1{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    position: relative;
+    left: 2530px;
+    top: 1070px;
+    z-index: -1;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+@keyframes ring1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#inscontainer1{
+    background-color: black;
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    position: relative;
+    left: 2px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#mercury{
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    left: 45px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#container2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: -2;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    position: relative;
+    left: 2480px;
+    bottom: -825px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#inscontainer2{
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 2.2px;
+    top: 2.2px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#venus{
+    background-color: burlywood;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    left: 85px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#container3{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: -2;
+    animation-name: ring;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    position: relative;
+    left: 2380px;
+    bottom: -430px;
+    z-index: -4;
+    margin: 0%;
+    padding: 0%;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+#inscontainer3{
+    width: 495px;
+    height: 495px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 2.2px;
+    top: 2.2px;
+}
+
+
+#moonring1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+    right: -35px;
+    bottom: 0px;
+    margin: 0%;
+    padding: 0%;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+#moonring2{
+    width: 95px;
+    height: 95px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: -3;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    top: 1px;
+    right: 0.8px;
+}
+
+#mooon{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+    bottom: 15px;
+}
+
+#earth{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+    left:35px;
+    bottom: 95px;
+}
+
+#container4{
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: -5;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    position: relative;
+    left: 2300px;
+    bottom: 140px;
+}
+
+#inscontainer4{
+    width: 645px;
+    height: 645px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+#mars{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: relative;
+    left: 300px;
+    bottom: 11.4px;
+}
+
+.solarsystem{
+    position: relative;
+    left: 400px;
+}
+
+.container5 img{
+    position: relative;
+    width: 950px;
+    height: 950px;
+    left: 2150px;
+    bottom: 950px;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+.container6{
+    width: 1050px;
+    height: 1050px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    z-index: -7;
+    position: relative;
+    left: 2095px;
+    bottom: 1950px;
+}
+
+.inscontainer6{
+    width: 1045px;
+    height: 1045px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+.jupiter{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    border-radius: 50%;
+    position: relative;
+    left: 505px;
+    bottom: 50px;
+}
+
+.container7{
+    width: 1550px;
+    height: 1550px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    z-index: -8;
+    position: relative;
+    left: 1850px;
+    bottom: 3250px;
+}
+
+.inscontainer7{
+    width: 1545px;
+    height: 1545px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 2.5px;
+    top: 2.5px;
+}
+
+.saturnring img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 70px;
+    bottom: -100px;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+}
+
+.saturn{
+    width: 90px;
+    height: 90px;
+    background-color: burlywood;
+    border-radius: 50%;
+    position: relative;
+    left: 175px;
+    bottom: 100px;
+}
+
+.container8{
+    width: 1950px;
+    height: 1950px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 80s;
+    z-index: -9;
+    position: relative;
+    left: 1650px;
+    bottom: 5000px;
+}
+
+.inscontainer8{
+    width: 1945px;
+    height: 1945px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 2.5px;
+    top: 2.5px;
+}
+
+.uranusring img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: -200px;
+    left: 80px;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.uranus{
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    border-radius: 50%;
+    position: relative;
+    left: 170px;
+    bottom: -40px;
+}
+
+.container9{
+    width: 2350px;
+    height: 2350px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 100s;
+    z-index: -10;
+    position: relative;
+    left: 1450px;
+    bottom: 7100px;
+}
+
+.inscontainer9{
+    width: 2345px;
+    height: 2345px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 2.5px;
+    top: 2.5px;
+}
+
+.neptune{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    left: 170px;
+    bottom: -450px;
+}
+
+.container10{
+    width: 2950px;
+    height: 2950px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 160s;
+    z-index: -11;
+    position: relative;
+    left: 1150px;
+    bottom: 9700px;
+}
+
+.inscontainer10{
+    width: 2945px;
+    height: 2945px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 2.5px;
+    top: 2.5px;
+}
+
+.plutomoonring1{
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 1200px;
+    right: 200px;
+}
+
+.plutomoonring2{
+    width: 345px;
+    height: 345px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+.plutomoon{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    left: 130px;
+    bottom: 30px;
+}
+
+.plutoring1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    right: 50px;
+    top: 100px;
+}
+
+.plutoring2{
+    width: 195px;
+    height: 195px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 2.5px;
+    top: 2px;
+}
+
+.pluto{
+    width: 70px;
+    height: 70px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    position: relative;
+    top: 140px;
+    left: 70px;
+}
+
+.container11 img{
+    width: 4050px;
+    height: 4050px;
+    border-radius: 50%;
+    animation-name: ring1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 200s;
+    z-index: -12;
+    position: relative;
+    left: 650px;
+    bottom: 13200px;
+}
